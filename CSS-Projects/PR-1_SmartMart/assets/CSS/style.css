@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #fc954b;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+    line-height: 2.0;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.search-bar {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cart img {
+    width: 400px;
+    position: relative;
+    height: auto;
+    left: 80%;
+    top: -130px;
+}
+
+.container1 {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+    top: -30px;
+    position: relative;
+
+    select {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
+
+.container2 {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background-color: bisque;
+}
+
+.product-card {
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    border: 2px solid #5e5959;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    line-height: 2.0;
+    gap: 10px;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-inline: 50px;
+        padding: 10px;
+    }
+
+    h5 {
+        color: #616160;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+}
+
+.One {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        width: 100px;
+        padding: 10px;
+        background-color: #00a103;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+}
+
+.btn1 {
+    width: 70px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #d90404;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 70px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #00a103;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn3 {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #d90404;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
