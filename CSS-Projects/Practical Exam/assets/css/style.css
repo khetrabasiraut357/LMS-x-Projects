@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.search-bar {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    padding: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+}
+
+.location {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 8px;
+    display: flex;
+    justify-content: start;
+    border: 2px solid black;
+    position: absolute;
+    top: 35px;
+    left: 750px;
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container1 {
+    width: 100%;
+    padding: 20px;
+}
+
+.all-menu {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(61, 244, 88);
+    border: 2px solid white;
+    border-radius: 10px;
+    align-items: center;
+
+    span {
+        padding: 20px;
+    }
+}
+
+.menu-list {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    padding: 20px;
+}
+
+.menu-list ul {
+    display: flex;
+    position: relative;
+    gap: 40px;
+    font-size: 20px;
+    list-style: none;
+
+    li a {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.menu-list ul li :hover {
+    color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container2 {
+    width: 100%;
+    padding: 20px;
+}
+
+.page {
+    padding: 40px;
+    background-color: bisque;
+
+    .para {
+        background-color: yellow;
+        color: black;
+        font-size: 20px;
+        display: inline-flex;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    h2 {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    button {
+        background-color: rgb(35, 30, 48);
+        color: white;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+        margin: 10px;
+    }
+}
+
+.container3 {
+    width: 100%;
+    padding: 20px;
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+.card1 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.card2 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.card3 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.card4 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.card5 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
+
+.card6 {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        width: 150px;
+        object-fit: cover;
+    }
+}
